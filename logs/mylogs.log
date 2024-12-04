@@ -1,0 +1,60 @@
+2024-12-04T13:27:42.377+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.jbk.CampusHireApplication            : Starting CampusHireApplication using Java 22.0.1 with PID 12180 (C:\Users\admin\eclipse-workspace\Campus_Hire\Campus_Hire\target\classes started by admin in C:\Users\admin\eclipse-workspace\Campus_Hire\Campus_Hire)
+2024-12-04T13:27:42.379+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.jbk.CampusHireApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T13:27:42.801+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T13:27:42.816+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-12-04T13:27:43.103+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8091 (http)
+2024-12-04T13:27:43.111+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T13:27:43.115+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T13:27:43.182+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T13:27:43.195+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 810 ms
+2024-12-04T13:27:43.334+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T13:27:43.343+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T13:27:43.365+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T13:27:43.369+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-12-04T13:27:43.402+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20ea2dc
+2024-12-04T13:27:43.402+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-12-04T13:27:43.404+05:30  WARN 12180 --- [Campus_Hire] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04T13:27:43.405+05:30  WARN 12180 --- [Campus_Hire] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-04T13:27:43.621+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T13:27:43.639+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T13:27:43.871+05:30  WARN 12180 --- [Campus_Hire] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T13:27:44.513+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-04T13:27:44.534+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8091 (http) with context path '/'
+2024-12-04T13:27:44.539+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.jbk.CampusHireApplication            : Started CampusHireApplication in 2.221 seconds (process running for 588.279)
+2024-12-04T13:27:44.541+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-04T13:28:56.162+05:30  INFO 12180 --- [Campus_Hire] [http-nio-8091-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04T13:28:56.163+05:30  INFO 12180 --- [Campus_Hire] [http-nio-8091-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-04T13:28:56.165+05:30  INFO 12180 --- [Campus_Hire] [http-nio-8091-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-04T13:34:47.278+05:30  INFO 12180 --- [Campus_Hire] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-04T13:34:47.303+05:30  INFO 12180 --- [Campus_Hire] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T13:34:47.308+05:30  INFO 12180 --- [Campus_Hire] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-12-04T13:34:47.323+05:30  INFO 12180 --- [Campus_Hire] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-12-04T13:34:47.474+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.jbk.CampusHireApplication            : Starting CampusHireApplication using Java 22.0.1 with PID 12180 (C:\Users\admin\eclipse-workspace\Campus_Hire\Campus_Hire\target\classes started by admin in C:\Users\admin\eclipse-workspace\Campus_Hire\Campus_Hire)
+2024-12-04T13:34:47.475+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.jbk.CampusHireApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T13:34:47.871+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T13:34:47.883+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-12-04T13:34:48.233+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8091 (http)
+2024-12-04T13:34:48.242+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T13:34:48.256+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T13:34:48.340+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T13:34:48.345+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 864 ms
+2024-12-04T13:34:48.491+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T13:34:48.497+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T13:34:48.520+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T13:34:48.525+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-12-04T13:34:48.554+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a36393d
+2024-12-04T13:34:48.554+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-12-04T13:34:48.556+05:30  WARN 12180 --- [Campus_Hire] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04T13:34:48.557+05:30  WARN 12180 --- [Campus_Hire] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-04T13:34:48.805+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T13:34:48.826+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T13:34:49.049+05:30  WARN 12180 --- [Campus_Hire] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T13:34:49.785+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-04T13:34:49.805+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8091 (http) with context path '/'
+2024-12-04T13:34:49.810+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] com.jbk.CampusHireApplication            : Started CampusHireApplication in 2.397 seconds (process running for 1013.549)
+2024-12-04T13:34:49.813+05:30  INFO 12180 --- [Campus_Hire] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-04T13:34:55.260+05:30  INFO 12180 --- [Campus_Hire] [http-nio-8091-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04T13:34:55.261+05:30  INFO 12180 --- [Campus_Hire] [http-nio-8091-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-04T13:34:55.263+05:30  INFO 12180 --- [Campus_Hire] [http-nio-8091-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-04T13:34:55.281+05:30  INFO 12180 --- [Campus_Hire] [http-nio-8091-exec-2] com.jbk.aspects.TimeAspects              : Execution time=10
+2024-12-04T13:35:17.032+05:30  INFO 12180 --- [Campus_Hire] [http-nio-8091-exec-3] com.jbk.aspects.TimeAspects              : Execution time=4
